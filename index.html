@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samurais - Guerreiros do Japão Feudal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <a href="./api/index.html">apiiii</a>
+    <header>
+        <div class="container">
+            <h1>Samurais</h1>
+            <p>Os nobres guerreiros do Japão Feudal</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#origem">Origem</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#armadura">Armadura</a></li>
+                <li><a href="#espada">Espada</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="origem">
+            <h2>Origem dos Samurais</h2>
+            <img src="images/samurai.jpg" alt="Samurai em armadura" class="float-right">
+            <p>Os samurais (侍) eram a classe guerreira do Japão feudal que surgiu no século X e se estabeleceu como a classe dominante durante o Período Edo (1603-1868). Originalmente, o termo "samurai" referia-se aos guerreiros aristocráticos (bushi), mas com o tempo passou a designar toda a classe guerreira.</p>
+            <p>A palavra "samurai" deriva do verbo japonês "saburau", que significa "servir" ou "acompanhar". Isso reflete o papel inicial dos samurais como servidores da nobreza imperial.</p>
+        </section>
+
+        <section id="historia">
+            <h2>História</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Período Heian (794-1185)</h3>
+                    <p>Os samurais emergiram como guerreiros provinciais para proteger as propriedades da nobreza.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Período Kamakura (1185-1333)</h3>
+                    <p>Estabelecimento do primeiro shogunato, marcando o domínio político dos samurais.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Período Edo (1603-1868)</h3>
+                    <p>Os samurais se tornaram burocratas e administradores sob o shogunato Tokugawa.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Restauração Meiji (1868)</h3>
+                    <p>A classe samurai foi abolida, mas seu legado cultural permaneceu influente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="armadura">
+            <h2>Armadura Samurai</h2>
+            <p>A armadura samurai, conhecida como "yoroi", era composta por várias partes:</p>
+            <ul>
+                <li><strong>Kabuto:</strong> Elmo protetor</li>
+                <li><strong>Do:</strong> Proteção para o torso</li>
+                <li><strong>Kote:</strong> Proteção para os braços</li>
+                <li><strong>Haidate:</strong> Proteção para as coxas</li>
+                <li><strong>Suneate:</strong> Proteção para as canelas</li>
+            </ul>
+            <p>As armaduras eram feitas de placas de metal ou couro lacado, unidas por cordas de seda ou couro, permitindo flexibilidade.</p>
+        </section>
+
+        <section id="espada">
+            <h2>A Espada Samurai</h2>
+            <div class="sword-info">
+                <div class="sword-text">
+                    <p>A katana é a espada mais associada aos samurais. Características:</p>
+                    <ul>
+                        <li>Lâmina curva e de um único fio</li>
+                        <li>Comprimento entre 60-73 cm</li>
+                        <li>Feita de aço tamahagane, produzido em forjas tradicionais</li>
+                        <li>Considerada a "alma do samurai"</li>
+                    </ul>
+                    <p>O processo de fabricação podia levar meses e envolvia múltiplas dobras do metal para criar uma lâmina resistente e afiada.</p>
+                </div>
+                <div class="sword-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Katana.jpg/320px-Katana.jpg" alt="Katana samurai">
+                    <p class="caption">Uma katana tradicional</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cultura">
+            <h2>Cultura e Legado</h2>
+            <p>Os samurais seguiam o código de conduta conhecido como <strong>bushidō</strong> (o caminho do guerreiro), que enfatizava:</p>
+            <ul>
+                <li>Lealdade</li>
+                <li>Autodisciplina</li>
+                <li>Respeito</li>
+                <li>Honra</li>
+                <li>Coragem</li>
+            </ul>
+            <p>Muitos aspectos da cultura samurai, como a cerimônia do chá, caligrafia, poesia e artes marciais, continuam influentes no Japão moderno.</p>
+            <button id="quote-btn">Mostrar Citação Samurai</button>
+            <div id="quote-display" class="quote"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Projeto baseado no artigo da <a href="https://pt.wikipedia.org/wiki/Samurai" target="_blank">Wikipedia sobre Samurais</a></p>
+            <p>&copy; 2023 - Todos os direitos reservados</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
